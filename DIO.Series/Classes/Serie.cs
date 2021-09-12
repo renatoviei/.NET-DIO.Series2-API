@@ -44,6 +44,21 @@ namespace DIO.Series
             return this.Id;
         }
 
+        public Genero retornaGenero()
+        {
+            return this.Genero;
+        }
+
+        public String retornaDescricao()
+        {
+            return this.Descricao;
+        }
+
+        public int retornaAno()
+        {
+            return this.Ano;
+        }
+
         public void Exclui(){
             this.Excluido = true;
         }
